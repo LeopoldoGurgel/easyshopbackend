@@ -20,6 +20,7 @@ router.get('/', async (req, res) => {
       }
     ]
   })
+  res.json(productData)
 }catch(err){
   res.status(500).json(err);
 }
@@ -41,6 +42,7 @@ const productData = await Product.findByPk(req.params.id, {
     }
   ]
 })
+res.json(productData)
 });
 
 // create new product

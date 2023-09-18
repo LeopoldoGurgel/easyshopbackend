@@ -13,6 +13,7 @@ router.get('/', async(req, res) => {
         attributes: ['product_name']
       }]
     })
+    res.json(tagData)
   }catch(err){
     res.status(500).json(err);
   }
@@ -26,7 +27,9 @@ try {  const tagData = await Tag.findByPk(req.params.id, {
       model: Product,
       attributes: ['product_name']
     }]
-  })}catch(err){ 
+  })
+  res.json(tagData)
+}catch(err){ 
     res.status(500).json(err);
   };
 });
