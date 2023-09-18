@@ -4,11 +4,20 @@
 This project creates the architecture for the backend of a e-commerce website dealing with it's database mainly through Express and Sequelize node modules. What are you waiting for? Let's sell and make money!
 
 ## TABLE OF CONTENTS
-* [Usage](#instructions)
 * [Installation](#installation)
+* [Usage](#instructions)
 * [Contributing](#contribution)
 * [License](#license)
 * [Contact](#contact)
+
+
+
+## INSTALLATION
+1 - Make sure you have Insomnia and Node.js preinstalled on your machine.  
+2 - Clone this application repository into a local folder in your computer.  
+3 - On your command line, navigate to this application folder, and run the command <npm install> to install the required NPM packages.  
+   
+And that was it. YOu're all set to start using your new backend app.  
 
 
 ## USAGE
@@ -38,14 +47,6 @@ This project creates the architecture for the backend of a e-commerce website de
     			}
 	To Add a new product, it is the same proceidure as to update it, but using a POST request. The same goes as to GET, POST or PUT categories or tags.
 
-
-
-## INSTALLATION
-1 - Make sure you have Insomnia and Node.js preinstalled on your machine.  
-2 - Clone this application repository into a local folder in your computer.  
-3 - On your command line, navigate to this application folder, and run the command <npm install> to install the required NPM packages.  
-   
-And that was it. YOu're all set to start using your new backend app.
 
 ## CONTRIBUTING
 You are welcome to help if you have any ideas to improve our project! If you want to do so, just follow these steps:
