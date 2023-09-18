@@ -1,5 +1,10 @@
 # My EasyShop BackEnd
 
+
+Watch the video on how to use our app:  
+https://drive.google.com/file/d/1Gil_9R0Ck6Al7eIjY9TQpZQqbYdE5315/view
+
+
 ## DESCRIPTION
 This project creates the architecture for the backend of a e-commerce website dealing with it's database mainly through Express and Sequelize node modules. What are you waiting for? Let's sell and make money!
 
